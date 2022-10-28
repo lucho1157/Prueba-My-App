@@ -1,1 +1,42 @@
 /* You can add global styles to this file, and also import other style files */
+@import url(http://fonts.googleapis.com/css?family=Lobster);
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,700&display=swap");
+
+
+body{
+    background-image: url(assets/IMG/color-g711e0da9e_1920a.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 200vh;
+    margin: 104px 1%;
+}
+
+@media(max-width:550px) {
+    h3 {
+        writing-mode:vertical-lr;
+        text-orientation:sideways;
+    }
+}
+
+h3 {
+    color:#d9f3f3
+}
+
+.rojo{
+    margin-top: 20%;
+    color:#f1f7f7;
+    font-weight: normal;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+  
+  
+  section[id] {
+    scroll-margin-top: 110px;
+  }
+  
+  #sobremi {
+    scroll-margin-top: 300px;
+  }
